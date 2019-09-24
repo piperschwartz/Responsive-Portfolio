@@ -1,0 +1,485 @@
+body {
+    background-image: url("/Users/piperschwartz/CodingBootcamp/Basic-Portfolio/assets/images/circuit.jpg");
+    background-repeat: repeat;
+}
+
+ul {
+    list-style-type: none;
+    display: inline;
+    padding-inline-start: 800px;
+    text-align: center;
+    float: right;
+
+       
+}
+
+.container .h1 .top{
+    flex-direction: row;
+    align-content: top;
+    background-color: white;
+    padding: 0x;
+    height: 50px;
+    position: top;
+    
+}
+
+.container {
+    width: 100%;
+    padding: 5px;
+    left: 0;
+    right: 0;
+    top: -6px;
+    margin: -5px;
+}
+
+
+.top {
+    display: inline;
+    position: top;
+    
+}
+
+section {
+    height:500px;
+    width: 960px;
+    align-content: center;
+    background-color: white;
+    float: center;
+    padding: 30px;
+    margin: 40px;
+    letter-spacing: 2px;
+    
+    
+}
+
+footer {
+    background-color: #666666;
+    padding: 0;
+    height: 40px;
+    width: 100% ;
+    text-align: center;
+    bottom: 0;
+    left: 0px;
+    right:0px;
+    position: absolute;
+    border-top: 8px solid #4aaaa5;
+    position: fixed;
+    color: white;
+}
+
+div {
+    /*width: 100%;
+    height: 200px;*/
+    background-color: white;
+    margin: 0px;
+    top: 0;
+    width: 100%;
+   
+   
+}
+
+.overflow {
+    overflow: auto;
+}
+
+
+h2 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h1 {
+    color: white;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    border-bottom: #cccccc;
+    padding: 0;
+    margin: 0;
+    float: left;
+
+}
+
+.piccontainer{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    
+
+}
+
+
+.image {
+    width: 250px;
+    height: 250px;
+    
+}
+
+hr {
+    content: 2px solid #cccccc;
+}
+
+.textwrap {
+    float: left;
+    margin: 15px;
+    transform: rotate(180deg);
+    height: 300px;
+    width: 400px;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+.contact {
+    width: 960px;
+    height: 500px;
+    padding: 20px;
+    margin: 100px;
+}
+
+.port {
+   
+    width: 960px;
+    padding: 20px;
+    margin: 100px;
+    
+}
+
+.portfoliopictures {
+    text-align: center;
+
+}
+
+.head {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+
+.button {
+    background-color: #4aaaa5;
+    color: white;
+    height: 30px;
+    width: 70px;
+    padding: 0;
+    border: none;
+}
+
+.textblock {
+    background-color: #4aaaa5;
+    position: absolute;    
+    text-align: center;    
+    width: 100%;
+    bottom: 20px;
+    color: white;
+    line-height: 40px;
+    
+ }
+
+ /*.textblock2 {
+    background-color: #4aaaa5;
+    position: absolute;    
+    height: 40px;
+    text-align: center;    
+    width: 200px;
+    align-content: bottom;
+    margin: auto;
+    left: 364px;
+    bottom: 60px;
+    color: white;
+    
+ }
+
+ .textblock3 {
+    background-color: #4aaaa5;
+    position: absolute;    
+    height: 40px;
+    text-align: center;    
+    width: 200px;
+    align-content: bottom;
+    margin: auto;
+    left: 588px;
+    bottom: 60px;
+    color: white;
+    
+
+ }
+
+ .textblock4 {
+    background-color: #4aaaa5;
+    position: absolute;    
+    height: 40px;
+    text-align: center;    
+    width: 200px;
+    align-content: bottom;
+    margin: auto;
+    left: 812px;
+    bottom: 60px;
+    color: white;   
+ }
+*/
+
+
+ .middle {
+     margin: 100px;
+     padding: 30px;
+ }
+
+
+/*Contact page 980px*/
+ @media screen and (max-width: 980px) {
+     .contact {
+        width: 700px;
+
+    }
+ }
+/*This is Contact page 768px*/
+ @media screen and (max-width: 768px) {
+    .contact {
+       width: 500px;
+
+   }
+}
+
+
+@media screen and (max-width: 768px) {
+    .overflow {
+      height: 200px;   
+
+   }
+}
+/*This is for the Contact page 640px*/
+@media screen and (max-width: 640px) {
+    .contact {
+       width: 400px;
+
+   }
+}
+
+@media screen and (max-width: 640px) {
+    .overflow {
+      height: 189px;   
+
+   }
+}
+
+
+/* This is the media queries for 980px for About Me page*/
+@media screen and (max-width: 980px) {
+    .middle {
+     width: 800px;
+     margin: 50px;
+     height: 400px;
+     
+    }
+}
+
+
+@media screen and (max-width: 980px) {
+    section {
+        width: 750px;
+    }
+}
+
+
+@media screen and (max-width: 980px) {
+    .textwrap {
+        width: 200px;
+        height: 300px;
+    }
+}
+
+/*This is for the 768px About me page*/
+@media screen and (max-width: 768px) {
+    .middle {
+     width: 600px;
+     margin: 50px;
+     height: 400px;
+     
+    }
+}
+
+@media screen and (max-width: 768px) {
+    p {
+     font-size: 12px;
+     line-height: 1.5;
+
+    }
+    }
+
+
+@media screen and (max-width: 768px) {
+    section {
+        width: 750px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container.overflow {
+        height: 100px
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+     ul {
+        height: 100px;
+        padding-inline-start: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .textwrap {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+
+/*This is for the About me 640px*/
+@media screen and (max-width: 640px) {
+    .middle {
+     width: 400px;
+     margin: 80px;
+     height: 350px;
+     
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    section {
+    width: 600px;
+
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    .textwrap {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    p {
+     font-size: 10px;
+     line-height: 1;
+
+    }
+    }
+
+    /*This is the for Portfolio page 980*/
+
+@media screen and (max-width: 980px) {
+
+    @media screen and (max-width: 980px) {
+        .piccontainer {
+            height: 2px;
+            width: 200px;
+            position: relative;
+            display: inline-block;
+            text-align: center;
+            margin: 20px;
+        }
+    }
+
+@media screen and (max-width: 980px) {
+        .port {
+            width: 700px;
+           }
+    }
+    
+@media screen and (max-width: 980px) {
+        .image {
+            width: 200px;
+            height: 200px;
+        }
+    }
+    
+ @media screen and (max-width: 980px) {
+        .textblock {
+            position: relative;
+        }
+    }
+
+
+
+
+     /*This is the for Portfolio page 768*/
+@media screen and (max-width: 768px) {
+        .piccontainer {
+            height: 2px;
+            width: 125px;
+            position: relative;
+            display: inline-block;
+            text-align: center;
+            margin: 20px;
+        }
+    }
+
+@media screen and (max-width: 768px) {
+        .port {
+            width: 500px;
+           }
+    }
+    
+@media screen and (max-width: 768px) {
+        .image {
+            width: 125px;
+            height: 125px;
+        }
+    }
+    
+ @media screen and (max-width: 768px) {
+        .textblock {
+            position: relative;
+        }
+    }
+
+
+
+
+      /*This is the for Portfolio page 640*/
+
+@media screen and (max-width: 640px) {
+    .piccontainer {
+        height: 2px;
+        width: 125px;
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        margin: 20px;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    .port {
+        width: 400px;
+       }
+}
+
+@media screen and (max-width: 640px) {
+    .image {
+        width: 125px;
+        height: 125px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .textblock {
+        position: relative;
+    }
+}
+
+}
